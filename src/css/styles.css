@@ -99,5 +99,5 @@ main>.tagline {
 }
 
 .books table img {
-    height: 200px;
+    max-height: 200px;
 }
