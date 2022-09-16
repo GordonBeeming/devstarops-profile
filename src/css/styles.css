@@ -101,3 +101,28 @@ main>.tagline {
 .books table img {
     max-height: 200px;
 }
+
+.page-section {
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.page-section h2 {
+    color: #FCD53F;
+}
+
+.page-section p {
+    padding: 10px 0;
+}
+
+.page-section p strong {
+    color: #FCD53F;
+}
+
+.page-section p a {
+    color: #FCD53F;
+}
+
+.page-section ul {
+    list-style: none;
+}
