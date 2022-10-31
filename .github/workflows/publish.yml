@@ -87,7 +87,7 @@ jobs:
 
   deploy:
     needs: build
-    if: ${{ equals(github.ref, 'refs/heads/main') }}
+    if: ${{ github.ref == 'refs/heads/main' }}
     continue-on-error: false
     strategy:
       matrix:
